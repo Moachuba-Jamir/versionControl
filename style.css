@@ -1,0 +1,71 @@
+.container {
+  display: flex;
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  height: 120px;
+  width: 120px;
+  border-radius: 5%;
+  margin: 3%;
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+  background: coral;
+}
+.box:hover {
+  transform: scale(1.2) rotate(32deg);
+}
+
+.box1 {
+  height: 120px;
+  width: 120px;
+  border-radius: 5%;
+  margin: 3%;
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+  background: rgb(193, 220, 36);
+}
+.box1:hover {
+  transform: scale(1.2) rotate(32deg);
+}
+
+.box2 {
+  height: 120px;
+  width: 120px;
+  border-radius: 5%;
+  margin: 3%;
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+  background: rgb(72, 0, 79);
+}
+.box2:hover {
+  transform: scale(1.2) rotate(32deg);
+}
+
+.box3 {
+  height: 120px;
+  width: 120px;
+  border-radius: 5%;
+  margin: 3%;
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+  background: rgb(225, 44, 80);
+}
+.box3:hover {
+  transform: scale(1.2) rotate(32deg);
+}
+
+.box4 {
+  height: 120px;
+  width: 120px;
+  border-radius: 5%;
+  margin: 3%;
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+  background: rgb(1, 105, 113);
+}
+.box4:hover {
+  transform: scale(1.2) rotate(32deg);
+}/*# sourceMappingURL=style.css.map */

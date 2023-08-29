@@ -1,0 +1,56 @@
+// create a mixin for all the box shape in the container class 
+
+@mixin animate($property: all, $timing: ease-in-out, $duration: 200ms){
+
+    transition: $property $duration $timing;
+
+    &:hover{
+        transform: scale(1.2) rotate(32deg);
+    }
+}
+
+@mixin box($size: 120px){
+    height: $size;
+    width: $size;
+    border-radius: 5%;
+    margin: 3%;
+    cursor: pointer;
+}
+
+.container{
+    display: flex;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    @include box ;
+    @include animate;
+    background: coral;
+}
+
+.box1{
+    @include box;
+    @include animate;
+    background: rgb(193, 220, 36)
+}
+
+
+.box2{
+    @include box;
+    @include animate;
+    background: rgb(72, 0, 79)
+}
+
+.box3{
+    @include box;
+    @include animate;
+    background: rgb(225, 44, 80)
+}
+
+.box4{
+    @include box;
+    @include animate;
+    background: rgb(1, 105, 113)
+}
